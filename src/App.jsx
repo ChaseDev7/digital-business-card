@@ -6,7 +6,9 @@ function App() {
     <>
       <div className="container">
         <img src={chaseLogo} />
-        <h1>ChaseDev7</h1>
+        <div className="personal-info">
+          <h2>ChaseDev7</h2>
+        </div>
       </div>
     </>
   )

@@ -4,13 +4,17 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #242424;
+  color: white;
   background-color:rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 a {
@@ -27,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: #23252C; */
+  background-color: #23252C;
   height: 100vh;
 }
 
@@ -41,9 +45,18 @@ h1 {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   margin-top: 30px;
 }
 
 img {
   border-radius: 10px 10px 0 0;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1A1B21;
 }
