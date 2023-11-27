@@ -1,15 +1,14 @@
 import './index.css'
-import chaseLogo from './images/chasedev7-logo.jpg'
+import Info from './Info'
+import About from './About'
+import Interests from './Interests'
 
 function App() {
   return (
     <>
-      <div className="container">
-        <img src={chaseLogo} />
-        <div className="personal-info">
-          <h2>ChaseDev7</h2>
-        </div>
-      </div>
+      <Info />
+      <About />
+      <Interests />
     </>
   )
 }

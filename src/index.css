@@ -40,6 +40,10 @@ h1 {
   line-height: 1.1;
 }
 
+h2, p {
+  margin: 0;
+}
+
 .container, img {
   width: 315px;
 }
@@ -48,9 +52,10 @@ h1 {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
+  background-color: #1A1B21;
 }
 
-img {
+.chase-logo {
   border-radius: 10px 10px 0 0;
 }
 
@@ -58,5 +63,53 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1A1B21;
+}
+
+h2 {
+  margin-top: 15px;
+}
+
+.job-title {
+  font-size: 12px;
+  color: rgb(234, 199, 199);
+}
+
+.job-site {
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.mail-button {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 7px 20px;
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+.linkedin-button {
+  background-color: #5093E2;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 7px 20px;
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+.mail-logo, .linkedin-logo {
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
 }
