@@ -1,9 +1,13 @@
 import './index.css'
+import chaseLogo from './images/chasedev7-logo.jpg'
 
 function App() {
   return (
     <>
-      <h1>It works!</h1>
+      <div className="container">
+        <img src={chaseLogo} />
+        <h1>ChaseDev7</h1>
+      </div>
     </>
   )
 }
